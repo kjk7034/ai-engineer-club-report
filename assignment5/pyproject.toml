@@ -1,0 +1,13 @@
+[project]
+name = "movie-agent"
+version = "0.1.0"
+description = "Movie Agent with a full OpenAI tool-calling loop and conversational memory"
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=2.41.0",
+]
+
+[dependency-groups]
+dev = [
+    "python-dotenv>=1.2.2",
+]
