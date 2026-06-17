@@ -1,0 +1,10 @@
+[project]
+name = "life-coach-filesearch"
+version = "0.1.0"
+description = "목표를 기억하는 Life Coach Agent — OpenAI Agents SDK + Streamlit + File Search + Web Search"
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.2.6",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.48.0",
+]
